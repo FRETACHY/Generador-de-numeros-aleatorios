@@ -1,0 +1,19 @@
+package umg;
+
+//++ Fredy Martinez 0905-13-3708
+
+import java.util.Random;//++libreria Random
+
+
+
+public class NewClass {
+    
+    public static void main(String [] args){
+        
+        Random GENERADORDENÚMEROSALEATORIOSUMG = new Random(); //++cree un objeto Tipo randome con el nombre de GENERADORDENÚMEROSALEATORIOSUMG
+        int F = -10000000 + GENERADORDENÚMEROSALEATORIOSUMG.nextInt(10000000 );//++ creo un entero le llamo F le asigno un valor entero aleatorio con el objeto creado acedemos eal metodo next int que nos devuelve los valores aleatorios
+        System.out.println("Los umeros aleatorios que resulntan son:" +F);//++utilisamos el metodo System.outprinTline para que nos mueetre en consola los numeros aleatorios.
+        
+    }
+    
+}
